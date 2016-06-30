@@ -35,7 +35,7 @@
  	function test_for_local_variable(){
  		$local_variable = 'local variable';
 
- 		echo '<p>variable "local_variable" equals: $local_variable</p>';//value for this echo should be 'local variable'
+ 		echo '<p>variable "local_variable" equals: ' . $local_variable . '</p>';//value for this echo should be 'local variable'
  	}
 
  	test_for_local_variable();
